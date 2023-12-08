@@ -1,10 +1,15 @@
 import React from 'react'
-
+import HeroImage from '../../public/hero_image.png'
 const Hero = () => {
   return (
-    <div>
+    <>
+    <div className="font-bold text-teal-500 text-2xl">
      Hero 
-    </div>
+      </div>
+      <img src={HeroImage.src} alt='HeroImage'
+      className='w-full'/>
+      
+      </>
   )
 }
 
