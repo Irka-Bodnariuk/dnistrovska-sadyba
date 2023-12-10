@@ -1,11 +1,13 @@
-// // NAVIGATION
-// export const NAV_LINKS = [
-//   { href: '/', key: 'home', label: 'Home' },
-//   { href: '/', key: 'how_hilink_work', label: 'How Hilink Work?' },
-//   { href: '/', key: 'services', label: 'Services' },
-//   { href: '/', key: 'pricing ', label: 'Pricing ' },
-//   { href: '/', key: 'contact_us', label: 'Contact Us' },
-// ];
+import { navLinks } from "@/types";
+
+// NAVIGATION
+export const NAV_LINKS: navLinks[] = [
+  { href: "/", key: "home", label: "Головна" },
+  { href: "/services", key: "services", label: "Послуги" },
+  { href: "/gallery", key: "gallery", label: "Галерея" },
+  { href: "/reviews", key: "reviews", label: "Відгуки" },
+  { href: "/contacts", key: "contacts", label: "Контакти" },
+];
 
 // // CAMP SECTION
 // export const PEOPLE_URL = [

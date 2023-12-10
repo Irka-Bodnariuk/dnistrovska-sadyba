@@ -1,20 +1,15 @@
-import Footer from '@/compoments/Footer'
-import Hero from '@/compoments/Hero'
-import Navbar from '@/compoments/Navbar'
-import Image from 'next/image'
+// import Footer from "@/compoments/Footer";
+import Hero from "@/components/Hero";
+// import Navbar from "@/compoments/Navbar";
+// import Image from "next/image";
 
 export default function Home() {
   return (
     <>
-      <Navbar />
       <Hero />
-      <Footer />
     </>
-  )
+  );
 }
-
-
-
 
 // import Image from 'next/image'
 
