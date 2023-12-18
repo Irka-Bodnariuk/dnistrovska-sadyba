@@ -9,6 +9,8 @@ export const NAV_LINKS: navLinks[] = [
   { href: "/contacts", key: "contacts", label: "Контакти" },
 ];
 
+
+
 // // CAMP SECTION
 // export const PEOPLE_URL = [
 //   '/person-1.png',

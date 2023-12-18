@@ -1,18 +1,15 @@
 import Image from 'next/image';
 import HeroImage from '../../public/hero_image.png';
-import Wawes from './Wawes';
+import { WawesApartement } from './Wawes';
 
 const Hero = () => {
   return (
     <div> 
       <div className="z-10 relative ">
-      <Wawes/>
+      <WawesApartement/>
       </div>
         <div className="relative">
-        <Image src={HeroImage} alt="HeroImage" layout="responsive" width={1200} height={800} />
-      </div>
-      <div className="relative bottom-0 transform rotate-180"> {/* Абсолютно позиціонуємо обернений Wawes */}
-        <Wawes />
+        <Image src={HeroImage} alt="HeroImage" className="w-full" height={600} priority={true}  />
       </div>
     </div>
   );
