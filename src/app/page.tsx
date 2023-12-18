@@ -1,4 +1,6 @@
 // import Footer from "@/compoments/Footer";
+import About from "@/components/About";
+import Gallery from "@/components/Gallery";
 import Hero from "@/components/Hero";
 // import Navbar from "@/compoments/Navbar";
 // import Image from "next/image";
@@ -7,6 +9,8 @@ export default function Home() {
   return (
     <>
       <Hero />
+      <About />
+      <Gallery/>
     </>
   );
 }
